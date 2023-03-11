@@ -14,6 +14,7 @@ async function generateJWT(user) {
     });
 }
 
+
 async function verifyJWT(token) {
     const payload = jwt.verify(token, JWT_SECRET, {
         algorithms: 'HS256',
