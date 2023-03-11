@@ -1,3 +1,5 @@
+// this app contains all the server side logic
+
 const express = require('express')
 const cors = require('cors')
 const helmet = require('helmet')
