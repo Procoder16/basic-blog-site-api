@@ -1,3 +1,5 @@
+// Described the entire USER MODEL
+
 const mongoose = require('mongoose');
 const crypto = require('crypto');
 
